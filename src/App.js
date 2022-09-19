@@ -1,10 +1,15 @@
-import React from 'react'
-import './App.css'
-import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
+import './App.css';
+import Header from './components/Header';
+import Home from './components/Home';
 
 function App() {
   return (
-      <SortingVisualizer></SortingVisualizer>
+    <div className="App">
+      <div className="container">
+          <Header />
+          <Home />
+      </div>
+    </div>
   );
 }
 
